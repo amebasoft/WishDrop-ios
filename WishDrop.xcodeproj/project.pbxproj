@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7DFACCE1CC4C9CC005C4940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFACCD1CC4C9CC005C4940 /* AppDelegate.swift */; };
+		C7DFACD01CC4C9CC005C4940 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFACCF1CC4C9CC005C4940 /* ViewController.swift */; };
+		C7DFACD31CC4C9CC005C4940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DFACD11CC4C9CC005C4940 /* Main.storyboard */; };
+		C7DFACD51CC4C9CC005C4940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7DFACD41CC4C9CC005C4940 /* Assets.xcassets */; };
+		C7DFACD81CC4C9CC005C4940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DFACD61CC4C9CC005C4940 /* LaunchScreen.storyboard */; };
+		C7DFACE31CC4C9CD005C4940 /* WishDropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFACE21CC4C9CD005C4940 /* WishDropTests.swift */; };
+		C7DFACEE1CC4C9CD005C4940 /* WishDropUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFACED1CC4C9CD005C4940 /* WishDropUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7DFACDF1CC4C9CD005C4940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7DFACC21CC4C9CC005C4940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7DFACC91CC4C9CC005C4940;
+			remoteInfo = WishDrop;
+		};
+		C7DFACEA1CC4C9CD005C4940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7DFACC21CC4C9CC005C4940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7DFACC91CC4C9CC005C4940;
+			remoteInfo = WishDrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7DFACCA1CC4C9CC005C4940 /* WishDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WishDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7DFACCD1CC4C9CC005C4940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7DFACCF1CC4C9CC005C4940 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7DFACD21CC4C9CC005C4940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7DFACD41CC4C9CC005C4940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7DFACD71CC4C9CC005C4940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7DFACD91CC4C9CC005C4940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7DFACDE1CC4C9CD005C4940 /* WishDropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WishDropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7DFACE21CC4C9CD005C4940 /* WishDropTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishDropTests.swift; sourceTree = "<group>"; };
+		C7DFACE41CC4C9CD005C4940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7DFACE91CC4C9CD005C4940 /* WishDropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WishDropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7DFACED1CC4C9CD005C4940 /* WishDropUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishDropUITests.swift; sourceTree = "<group>"; };
+		C7DFACEF1CC4C9CD005C4940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7DFACC71CC4C9CC005C4940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DFACDB1CC4C9CD005C4940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DFACE61CC4C9CD005C4940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7DFACC11CC4C9CC005C4940 = {
+			isa = PBXGroup;
+			children = (
+				C7DFACCC1CC4C9CC005C4940 /* WishDrop */,
+				C7DFACE11CC4C9CD005C4940 /* WishDropTests */,
+				C7DFACEC1CC4C9CD005C4940 /* WishDropUITests */,
+				C7DFACCB1CC4C9CC005C4940 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7DFACCB1CC4C9CC005C4940 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7DFACCA1CC4C9CC005C4940 /* WishDrop.app */,
+				C7DFACDE1CC4C9CD005C4940 /* WishDropTests.xctest */,
+				C7DFACE91CC4C9CD005C4940 /* WishDropUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7DFACCC1CC4C9CC005C4940 /* WishDrop */ = {
+			isa = PBXGroup;
+			children = (
+				C7DFACCD1CC4C9CC005C4940 /* AppDelegate.swift */,
+				C7DFACCF1CC4C9CC005C4940 /* ViewController.swift */,
+				C7DFACD11CC4C9CC005C4940 /* Main.storyboard */,
+				C7DFACD41CC4C9CC005C4940 /* Assets.xcassets */,
+				C7DFACD61CC4C9CC005C4940 /* LaunchScreen.storyboard */,
+				C7DFACD91CC4C9CC005C4940 /* Info.plist */,
+			);
+			path = WishDrop;
+			sourceTree = "<group>";
+		};
+		C7DFACE11CC4C9CD005C4940 /* WishDropTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7DFACE21CC4C9CD005C4940 /* WishDropTests.swift */,
+				C7DFACE41CC4C9CD005C4940 /* Info.plist */,
+			);
+			path = WishDropTests;
+			sourceTree = "<group>";
+		};
+		C7DFACEC1CC4C9CD005C4940 /* WishDropUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7DFACED1CC4C9CD005C4940 /* WishDropUITests.swift */,
+				C7DFACEF1CC4C9CD005C4940 /* Info.plist */,
+			);
+			path = WishDropUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7DFACC91CC4C9CC005C4940 /* WishDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7DFACF21CC4C9CD005C4940 /* Build configuration list for PBXNativeTarget "WishDrop" */;
+			buildPhases = (
+				C7DFACC61CC4C9CC005C4940 /* Sources */,
+				C7DFACC71CC4C9CC005C4940 /* Frameworks */,
+				C7DFACC81CC4C9CC005C4940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WishDrop;
+			productName = WishDrop;
+			productReference = C7DFACCA1CC4C9CC005C4940 /* WishDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7DFACDD1CC4C9CD005C4940 /* WishDropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7DFACF51CC4C9CD005C4940 /* Build configuration list for PBXNativeTarget "WishDropTests" */;
+			buildPhases = (
+				C7DFACDA1CC4C9CD005C4940 /* Sources */,
+				C7DFACDB1CC4C9CD005C4940 /* Frameworks */,
+				C7DFACDC1CC4C9CD005C4940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7DFACE01CC4C9CD005C4940 /* PBXTargetDependency */,
+			);
+			name = WishDropTests;
+			productName = WishDropTests;
+			productReference = C7DFACDE1CC4C9CD005C4940 /* WishDropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7DFACE81CC4C9CD005C4940 /* WishDropUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7DFACF81CC4C9CD005C4940 /* Build configuration list for PBXNativeTarget "WishDropUITests" */;
+			buildPhases = (
+				C7DFACE51CC4C9CD005C4940 /* Sources */,
+				C7DFACE61CC4C9CD005C4940 /* Frameworks */,
+				C7DFACE71CC4C9CD005C4940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7DFACEB1CC4C9CD005C4940 /* PBXTargetDependency */,
+			);
+			name = WishDropUITests;
+			productName = WishDropUITests;
+			productReference = C7DFACE91CC4C9CD005C4940 /* WishDropUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7DFACC21CC4C9CC005C4940 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ameba;
+				TargetAttributes = {
+					C7DFACC91CC4C9CC005C4940 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					C7DFACDD1CC4C9CD005C4940 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C7DFACC91CC4C9CC005C4940;
+					};
+					C7DFACE81CC4C9CD005C4940 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C7DFACC91CC4C9CC005C4940;
+					};
+				};
+			};
+			buildConfigurationList = C7DFACC51CC4C9CC005C4940 /* Build configuration list for PBXProject "WishDrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7DFACC11CC4C9CC005C4940;
+			productRefGroup = C7DFACCB1CC4C9CC005C4940 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7DFACC91CC4C9CC005C4940 /* WishDrop */,
+				C7DFACDD1CC4C9CD005C4940 /* WishDropTests */,
+				C7DFACE81CC4C9CD005C4940 /* WishDropUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7DFACC81CC4C9CC005C4940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DFACD81CC4C9CC005C4940 /* LaunchScreen.storyboard in Resources */,
+				C7DFACD51CC4C9CC005C4940 /* Assets.xcassets in Resources */,
+				C7DFACD31CC4C9CC005C4940 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DFACDC1CC4C9CD005C4940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DFACE71CC4C9CD005C4940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7DFACC61CC4C9CC005C4940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DFACD01CC4C9CC005C4940 /* ViewController.swift in Sources */,
+				C7DFACCE1CC4C9CC005C4940 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DFACDA1CC4C9CD005C4940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DFACE31CC4C9CD005C4940 /* WishDropTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DFACE51CC4C9CD005C4940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DFACEE1CC4C9CD005C4940 /* WishDropUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7DFACE01CC4C9CD005C4940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7DFACC91CC4C9CC005C4940 /* WishDrop */;
+			targetProxy = C7DFACDF1CC4C9CD005C4940 /* PBXContainerItemProxy */;
+		};
+		C7DFACEB1CC4C9CD005C4940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7DFACC91CC4C9CC005C4940 /* WishDrop */;
+			targetProxy = C7DFACEA1CC4C9CD005C4940 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7DFACD11CC4C9CC005C4940 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7DFACD21CC4C9CC005C4940 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7DFACD61CC4C9CC005C4940 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7DFACD71CC4C9CC005C4940 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7DFACF01CC4C9CD005C4940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7DFACF11CC4C9CD005C4940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7DFACF31CC4C9CD005C4940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WishDrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ameba.WishDrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7DFACF41CC4C9CD005C4940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WishDrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ameba.WishDrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C7DFACF61CC4C9CD005C4940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WishDropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ameba.WishDropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WishDrop.app/WishDrop";
+			};
+			name = Debug;
+		};
+		C7DFACF71CC4C9CD005C4940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WishDropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ameba.WishDropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WishDrop.app/WishDrop";
+			};
+			name = Release;
+		};
+		C7DFACF91CC4C9CD005C4940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WishDropUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ameba.WishDropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WishDrop;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C7DFACFA1CC4C9CD005C4940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WishDropUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ameba.WishDropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WishDrop;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7DFACC51CC4C9CC005C4940 /* Build configuration list for PBXProject "WishDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DFACF01CC4C9CD005C4940 /* Debug */,
+				C7DFACF11CC4C9CD005C4940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7DFACF21CC4C9CD005C4940 /* Build configuration list for PBXNativeTarget "WishDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DFACF31CC4C9CD005C4940 /* Debug */,
+				C7DFACF41CC4C9CD005C4940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7DFACF51CC4C9CD005C4940 /* Build configuration list for PBXNativeTarget "WishDropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DFACF61CC4C9CD005C4940 /* Debug */,
+				C7DFACF71CC4C9CD005C4940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7DFACF81CC4C9CD005C4940 /* Build configuration list for PBXNativeTarget "WishDropUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DFACF91CC4C9CD005C4940 /* Debug */,
+				C7DFACFA1CC4C9CD005C4940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7DFACC21CC4C9CC005C4940 /* Project object */;
+}
