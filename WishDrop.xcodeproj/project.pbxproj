@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C7DFACCE1CC4C9CC005C4940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFACCD1CC4C9CC005C4940 /* AppDelegate.swift */; };
-		C7DFACD01CC4C9CC005C4940 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFACCF1CC4C9CC005C4940 /* ViewController.swift */; };
+		C71804921CC4CB7500F4F403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71804911CC4CB7500F4F403 /* AppDelegate.swift */; };
+		C71804A51CC4ECC000F4F403 /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C71804A21CC4ECC000F4F403 /* Comfortaa-Bold.ttf */; };
+		C71804A61CC4ECC000F4F403 /* Comfortaa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C71804A31CC4ECC000F4F403 /* Comfortaa-Light.ttf */; };
+		C71804A71CC4ECC000F4F403 /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C71804A41CC4ECC000F4F403 /* Comfortaa-Regular.ttf */; };
+		C71804AB1CC4F47D00F4F403 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71804AA1CC4F47D00F4F403 /* SignIn.swift */; };
+		C78F0DE81CC5F2C700B10042 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78F0DE71CC5F2C700B10042 /* UserProfile.swift */; };
 		C7DFACD31CC4C9CC005C4940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DFACD11CC4C9CC005C4940 /* Main.storyboard */; };
 		C7DFACD51CC4C9CC005C4940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7DFACD41CC4C9CC005C4940 /* Assets.xcassets */; };
 		C7DFACD81CC4C9CC005C4940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DFACD61CC4C9CC005C4940 /* LaunchScreen.storyboard */; };
@@ -34,9 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C71804911CC4CB7500F4F403 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = CustomMangement/Appdelegate/AppDelegate.swift; sourceTree = "<group>"; };
+		C71804A21CC4ECC000F4F403 /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Bold.ttf"; path = "../../../../../Downloads/comfortaa/Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
+		C71804A31CC4ECC000F4F403 /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Light.ttf"; path = "../../../../../Downloads/comfortaa/Comfortaa-Light.ttf"; sourceTree = "<group>"; };
+		C71804A41CC4ECC000F4F403 /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Regular.ttf"; path = "../../../../../Downloads/comfortaa/Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
+		C71804AA1CC4F47D00F4F403 /* SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignIn.swift; path = "CustomMangement/VC's/Intial/SignIn.swift"; sourceTree = "<group>"; };
+		C78F0DE71CC5F2C700B10042 /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserProfile.swift; path = "CustomMangement/VC's/SlideMenu/UserProfile.swift"; sourceTree = "<group>"; };
 		C7DFACCA1CC4C9CC005C4940 /* WishDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WishDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7DFACCD1CC4C9CC005C4940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C7DFACCF1CC4C9CC005C4940 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C7DFACD21CC4C9CC005C4940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7DFACD41CC4C9CC005C4940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7DFACD71CC4C9CC005C4940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,6 +82,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C71804901CC4CB3B00F4F403 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C71804911CC4CB7500F4F403 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C71804931CC4D50B00F4F403 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7DFACD11CC4C9CC005C4940 /* Main.storyboard */,
+				C7DFACD61CC4C9CC005C4940 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C71804941CC4D51F00F4F403 /* VC's */ = {
+			isa = PBXGroup;
+			children = (
+				C78F0DE61CC5F28E00B10042 /* Menu Item */,
+				C71804971CC4D63B00F4F403 /* Initial */,
+			);
+			name = "VC's";
+			sourceTree = "<group>";
+		};
+		C71804951CC4D52B00F4F403 /* SystemFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C71804A01CC4E9AB00F4F403 /* Resources */,
+				C71804961CC4D53900F4F403 /* System */,
+			);
+			name = SystemFiles;
+			sourceTree = "<group>";
+		};
+		C71804961CC4D53900F4F403 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				C7DFACD41CC4C9CC005C4940 /* Assets.xcassets */,
+				C7DFACD91CC4C9CC005C4940 /* Info.plist */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		C71804971CC4D63B00F4F403 /* Initial */ = {
+			isa = PBXGroup;
+			children = (
+				C71804AA1CC4F47D00F4F403 /* SignIn.swift */,
+			);
+			name = Initial;
+			sourceTree = "<group>";
+		};
+		C71804A01CC4E9AB00F4F403 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C71804A11CC4EBF600F4F403 /* Font */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C71804A11CC4EBF600F4F403 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				C71804A21CC4ECC000F4F403 /* Comfortaa-Bold.ttf */,
+				C71804A31CC4ECC000F4F403 /* Comfortaa-Light.ttf */,
+				C71804A41CC4ECC000F4F403 /* Comfortaa-Regular.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		C78F0DE61CC5F28E00B10042 /* Menu Item */ = {
+			isa = PBXGroup;
+			children = (
+				C78F0DE71CC5F2C700B10042 /* UserProfile.swift */,
+			);
+			name = "Menu Item";
+			sourceTree = "<group>";
+		};
 		C7DFACC11CC4C9CC005C4940 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +183,10 @@
 		C7DFACCC1CC4C9CC005C4940 /* WishDrop */ = {
 			isa = PBXGroup;
 			children = (
-				C7DFACCD1CC4C9CC005C4940 /* AppDelegate.swift */,
-				C7DFACCF1CC4C9CC005C4940 /* ViewController.swift */,
-				C7DFACD11CC4C9CC005C4940 /* Main.storyboard */,
-				C7DFACD41CC4C9CC005C4940 /* Assets.xcassets */,
-				C7DFACD61CC4C9CC005C4940 /* LaunchScreen.storyboard */,
-				C7DFACD91CC4C9CC005C4940 /* Info.plist */,
+				C71804901CC4CB3B00F4F403 /* AppDelegate */,
+				C71804931CC4D50B00F4F403 /* View */,
+				C71804941CC4D51F00F4F403 /* VC's */,
+				C71804951CC4D52B00F4F403 /* SystemFiles */,
 			);
 			path = WishDrop;
 			sourceTree = "<group>";
@@ -229,9 +313,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C71804A51CC4ECC000F4F403 /* Comfortaa-Bold.ttf in Resources */,
 				C7DFACD81CC4C9CC005C4940 /* LaunchScreen.storyboard in Resources */,
 				C7DFACD51CC4C9CC005C4940 /* Assets.xcassets in Resources */,
 				C7DFACD31CC4C9CC005C4940 /* Main.storyboard in Resources */,
+				C71804A71CC4ECC000F4F403 /* Comfortaa-Regular.ttf in Resources */,
+				C71804A61CC4ECC000F4F403 /* Comfortaa-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +343,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7DFACD01CC4C9CC005C4940 /* ViewController.swift in Sources */,
-				C7DFACCE1CC4C9CC005C4940 /* AppDelegate.swift in Sources */,
+				C71804921CC4CB7500F4F403 /* AppDelegate.swift in Sources */,
+				C71804AB1CC4F47D00F4F403 /* SignIn.swift in Sources */,
+				C78F0DE81CC5F2C700B10042 /* UserProfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,10 +485,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WishDrop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ameba.WishDrop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -408,6 +498,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WishDrop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ameba.WishDrop;
@@ -482,6 +573,7 @@
 				C7DFACF41CC4C9CD005C4940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7DFACF51CC4C9CD005C4940 /* Build configuration list for PBXNativeTarget "WishDropTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +582,7 @@
 				C7DFACF71CC4C9CD005C4940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7DFACF81CC4C9CD005C4940 /* Build configuration list for PBXNativeTarget "WishDropUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +591,7 @@
 				C7DFACFA1CC4C9CD005C4940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
